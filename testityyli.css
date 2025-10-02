@@ -1,0 +1,30 @@
+html {
+    font-size: 100%;
+}
+
+div {
+    border-color: darkred;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+
+}
+
+.content {
+    width: 50vw;
+    margin: auto;
+}
+
+.header {
+height: 50vh;
+font-size: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+ .content {
+    max-width: fit-content;
+  }
+}
