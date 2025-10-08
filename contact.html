@@ -27,8 +27,23 @@
 
 
 
-    <h3>Yhteystiedot</h3>
-    <p>Tekstiätekstiä</p>
+    <h3>Yhteydenottolomake</h3>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="etunimi">Etunimi</label>
+    <input type="text" id="enimi" name="etunimi" placeholder="Etunimesi..">
+
+    <label for="sukunimi">Sukunimi</label>
+    <input type="text" id="snimi" name="sukunimi" placeholder="Sukunimesi..">
+
+    <label for="aihe">Aihe</label>
+    <textarea id="aihe" name="aihe" placeholder="Kirjoita jotain.." style="height:200px"></textarea>
+
+    <input type="submit" value="Lähetä">
+
+  </form>
+</div>
 
 
     <footer>
