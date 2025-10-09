@@ -18,7 +18,7 @@ body {
   align-items: center;
   position: relative;
 
-  background-image: url('Banner 2.png');
+  background-image: url('banner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,15 +53,17 @@ h3 {
 }
 
 .about {
-  width: 50vw;
+  max-width: 800px;
   margin: auto;
+  padding: 0 1rem;
+  text-align: center;
 }
+
 
 p {
   line-height: 1.6;
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
 
 nav {
@@ -69,6 +71,8 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
 }
 
 .navbar {
@@ -78,6 +82,9 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+ 
+
+
 }
 
 .navbar li {
