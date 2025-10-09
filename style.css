@@ -2,7 +2,6 @@ html {
   font-size: 100%;
 }
 
-
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
@@ -35,8 +34,8 @@ body {
 
 h1 {
 font-size: 2rem;
+text-align: center;
 }
-
 
 h2 {
   font-size: 1.5rem;
@@ -52,19 +51,15 @@ h3 {
   margin-bottom: 20px;
 }
 
-.about {
+.main {
   max-width: 800px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 1rem;
-  text-align: center;
+  text-align: left;
+
 }
 
-
-p {
-  line-height: 1.6;
-  max-width: 100%;
-  margin: 0 auto;
-}
 
 nav {
   background-color: #333;
@@ -83,8 +78,6 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
  
-
-
 }
 
 .navbar li {
@@ -120,4 +113,36 @@ nav {
     padding: 1rem;
     border-top: 1px solid #444;
   }
+}
+
+.contact-box {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-box h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.contact-box p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-box a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
 }
