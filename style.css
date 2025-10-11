@@ -97,9 +97,9 @@ nav {
   background-color: #111;
 }
 
-.navbar li a.active {
+/* .navbar li a.active {
   background-color: #646665;
-}
+} */
 
 
 @media screen and (max-width: 600px) {
